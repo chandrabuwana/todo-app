@@ -109,7 +109,7 @@ export default{
       })
     },
     onSignInError (error) {
-      console.log('OH NOES', error)
+      console.log(error)
     },
     checkLogin () {
       console.log('check login')

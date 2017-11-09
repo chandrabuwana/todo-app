@@ -8,7 +8,7 @@ var userSchema = new mongoose.Schema({
   },
   password  : String,
   name      : String,
-  salat     : String
+  salt     : String
 },{
   timestamps: true
 })
